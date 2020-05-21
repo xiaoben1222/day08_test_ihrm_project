@@ -1,0 +1,4 @@
+2020-05-17 17:24:12,940 INFO [root] [__init__.py(<module>:9)] - 测试日志是否会打印！
+2020-05-17 17:24:13,083 INFO [root] [test_ihrm_employee.py(test01_employee_manage:35)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '342cf152-1f1d-406b-ae0c-c6b02a20a290'}
+2020-05-17 17:24:13,083 INFO [root] [test_ihrm_employee.py(test01_employee_manage:41)] - 请求头中令牌：{'Content-Type': 'application/json', 'Authorization': 'Bearer 342cf152-1f1d-406b-ae0c-c6b02a20a290'}
+2020-05-17 17:24:13,116 INFO [root] [test_ihrm_employee.py(test01_employee_manage:46)] - 添加员工的结果为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
